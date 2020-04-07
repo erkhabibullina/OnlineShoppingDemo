@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/almond"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/add_item_itemname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/futuramedium"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="115dp"
+            android:layout_marginRight="5dp"
+            android:fontFamily="@font/futuramedium"
+            android:text="@string/inventory_quantity"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/add_item_inventoryquantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="115dp"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/rounded_20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/add_item_subtractquantity"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/rounded_40dp"
+                android:backgroundTint="@color/yellow"
+                android:text="-"
+                android:textColor="@color/white"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/add_item_quantity"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="15dp"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/add_item_addquantity"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="65dp"
+                android:background="@drawable/rounded_40dp"
+                android:backgroundTint="@color/yellow"
+                android:text="+"
+                android:textColor="@color/white"
+                android:textSize="36sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="143dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/admin_promote_employee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="105dp"
+            android:fontFamily="@font/futuramedium"
+            android:text="@string/total_price"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/add_item_totalprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="105dp"
+            android:fontFamily="@font/futuramedium"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/add_item_addtocart"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rounded_40dp"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/futuramedium"
+        android:text="@string/add"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+</LinearLayout>

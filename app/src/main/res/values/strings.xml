@@ -1,0 +1,122 @@
+<resources>
+  <string name="app_name">OnlineShoppingDemo</string>
+  <string name="sign_in">Sign in as</string>
+  <string name="admin">Admin</string>
+  <string name="employee">Employee</string>
+  <string name="customer">Customer</string>
+  <string name="log_in">Log in</string>
+  <string name="user_id">UserId</string>
+  <string name="password">Password</string>
+  <string name="reenter_password">Re-enter password</string>
+  <string name="logo">logo</string>
+  <string name="sign_up">Sign up</string>
+  <string name="first_name">First and last name</string>
+  <string name="last_name">Last name</string>
+  <string name="age">Age</string>
+  <string name="address">Address</string>
+  <string name="hockey_stick">Hockey Stick</string>
+  <string name="price">$0.99</string>
+  <string name="items">Available Items</string>
+  <string name="hi">Hi, Mo</string>
+  <string name="restore">Restore your last cart</string>
+  <string name="total">Total: $ </string>
+  <string name="add">ADD TO CART</string>
+  <string name="checkout">Checkout</string>
+
+
+  <!--AccountCreation-->
+  <string name="admin_sign_up">Sign up as Admin</string>
+  <string name="employee_sign_up">Sign up as Employee</string>
+  <string name="customer_sign_up">Sign up as Customer</string>
+  <string name="name_eror">Ensure you have a valid name</string>
+  <string name="age_error">Ensure you have a valid age</string>
+  <string name="address_error">Ensure you have a valid address</string>
+  <string name="password_error">Ensure you have a valid password</string>
+  <string name="password_mismatch">Your passwords do not match</string>
+
+
+  <!-- Welcome page-->
+  <string name="welcome">Welcome,\u0020</string>
+  <string name="welcome_role">You are now an\u0020</string>
+  <string name="welcome_role_an_switch">You are now a\u0020</string>
+  <string name="welcome_user_id">Your userId is\u0020</string>
+  <string name="welcome_remember">,\u0020please remember it.</string>
+  <string name="welcome_continue">Continue</string>
+
+  <!--Login page-->
+  <string name="login_error">Your userId or password was not found in the system</string>
+
+  <!--Employee page-->
+  <string name="employee_insert_item">Insert item</string>
+  <string name="employee_insert_item_des">Create a new item for the inventory</string>
+  <string name="employee_add_account">Add a new account</string>
+  <string name="employee_submit">Submit</string>
+  <string name="employee_item_name">Item name</string>
+  <string name="employee_item_price">Price</string>
+  <string name="employee_quantity">Quantity</string>
+  <string name="item_name_error">Ensure you have a valid item name</string>
+  <string name="item_price_error">Ensure you have a valid item price</string>
+  <string name="item_quantity_error">Ensure you have a valid item quantity</string>
+  <string name="employee_inventory">Inventory</string>
+  <string name="employee_select_item">Select an item to restock</string>
+  <string name="restock_item_quantity">Quantity:\u0020</string>
+  <string name="employee_restock">Restock</string>
+  <string name="employee_item_id">Item Id:</string>
+  <string name="employee_item_quantity">Quantity:</string>
+  <string name="item_id_error">Ensure you have a valid item id</string>
+  <string name="duplicate_insert_item_error">This item is already in the inventory</string>
+  <string name="authenticate_employee">Authenticate employee</string>
+  <string name="add_account">Add account</string>
+  <string name="add_account_desc">Select an account to create</string>
+  <string name="add_account_userid">User Id:</string>
+  <string name="user_id_error">Ensure you have a valid user id</string>
+  <string name="account_creation_error">Account creation was unsuccessful</string>
+  <string name="stock_overflow">Stock overflow</string>
+  <string name="new_membership">Add a new membership</string>
+  <string name="add_membership">Add membership</string>
+  <string name="add_membership_desc">Select an account for a membership</string>
+  <string name="membership_error">Membership status update was unsuccessful</string>
+
+  <!--Admin-->
+  <string name="view_or_return">View sales or make a return</string>
+  <string name="sale_id">Sale Id:</string>
+  <string name="sale_id_error">Ensure you have a valid sale id</string>
+  <string name="return_unsucessful">The return was unsuccessful</string>
+  <string name="unsuccessful_promotion">Please enter a valid employee id.</string>
+  <string name="view_accounts">Accounts</string>
+  <string name="active">Active</string>
+  <string name="inactive">Inactive</string>
+  <string name="add_customer">Add a new customer</string>
+  <string name="add_employee">Add a new employee</string>
+  <string name="restock">Restock inventory</string>
+  <string name="promote">Promote an employee</string>
+  <string name="sales_log">View sales log</string>
+  <string name="account_list">View account list</string>
+  <string name="sales_log_text">Sales Log</string>
+  <string name="return_sale">Make a return</string>
+  <string name="select_an_employee">Select an employee to promote</string>
+  <string name="employee_id">Employee Id</string>
+  <string name="promote_button">Promote</string>
+  <string name="successful_promotion">The promotion was successful.</string>
+  <string name="return_successful">"The return was successful"</string>
+
+  <!--Customer-->
+  <string name="save_cart">Save</string>
+  <string name="restore_cart">Restore</string>
+  <string name="empty_error">You cannot save an empty cart</string>
+  <string name="save_error">You have already saved before</string>
+  <string name="account_error">You need to link an account to save or restore</string>
+  <string name="restore_error">You have already restored before</string>
+  <string name="no_save">You have not saved a cart on this account yet</string>
+
+  <string name="pickup">Pick up where you left off</string>
+  <string name="welcome_back">Welcome back!</string>
+  <string name="dollar_sign">$</string>
+  <string name="total_price">Subtotal: $</string>
+  <string name="inventory_quantity">Inventory has:</string>
+  <string name="item_quantity">Qty: </string>
+
+
+  <string name="export_data">Export database</string>
+  <string name="import_data">Import database</string>
+</resources>

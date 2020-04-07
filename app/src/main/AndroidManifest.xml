@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.onlineshoppingdemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".store.login.StoreAuthenticationActivity" />
+        <activity android:name=".store.signup.AccountCreationActivity" />
+        <activity android:name=".store.signup.WelcomeActivity" />
+        <activity android:name=".store.customer.CustomerUIActivity" />
+        <activity android:name=".store.admin.AdminUIActivity" />
+        <activity android:name=".store.employee.EmployeeUIActivity" />
+        <activity android:name=".store.customer.AddItemActivity" />
+        <activity android:name=".store.customer.ShoppingCartActivity" />
+        <activity android:name=".store.employee.InsertNewItemActivity" />
+        <activity android:name=".store.employee.RestockInventoryActivity" />
+        <activity android:name=".store.employee.AddNewAccountActivity" />
+        <activity android:name=".store.employee.AddNewMembershipActivity" />
+        <activity
+            android:name=".store.admin.SalesLogUIActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".store.admin.PromoteEmployeeUIActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".store.admin.AdminLoginUIActivity" />
+        <activity android:name=".store.admin.AccountListUIActivity" />
+    </application>
+
+</manifest>

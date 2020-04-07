@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/white"
+  android:orientation="vertical">
+
+  <TextView
+    android:id="@+id/sales_log_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    android:fontFamily="@font/futuramedium"
+    android:text="@string/sales_log_text"
+    android:textColor="@color/black"
+    android:textSize="36sp" />
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="20dp"
+    android:fontFamily="@font/futuramedium"
+    android:text="@string/view_or_return"
+    android:textColor="@color/grey"
+    android:textSize="20sp" />
+  <!--
+  <ScrollView
+    android:id="@+id/sales_log_layout"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_weight="0.7"
+    android:background="@drawable/rounded_20dp">
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@drawable/rounded_20dp"
+      android:orientation="vertical">
+      <LinearLayout
+        android:id="@+id/sales_log_box"
+        android:layout_width="350dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rounded_30dp"
+        android:backgroundTint="@color/yellow"
+        android:clickable="true"
+        android:orientation="horizontal">
+        <LinearLayout
+          android:id="@+id/sales_log_sale_box"
+          android:layout_width="match_parent"
+          android:layout_height="130dp"
+          android:layout_marginTop="20dp"
+          android:layout_marginBottom="20dp"
+          android:orientation="vertical">
+          <LinearLayout
+            android:id="@+id/sales_log_customer_box"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <TextView
+              android:id="@+id/sale_id"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="20dp"
+              android:layout_marginTop="10dp"
+              android:layout_marginBottom="10dp"
+              android:layout_weight="1"
+              android:fontFamily="@font/futuramedium"
+              android:text="TextView"
+              android:textAllCaps="false"
+              android:textColor="@color/black"
+              android:textSize="22sp"
+              tools:text="#1" />
+            <TextView
+              android:id="@+id/sales_log_total"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:layout_marginBottom="10dp"
+              android:layout_weight="1"
+              android:fontFamily="@font/futuramedium"
+              android:text="TextView"
+              android:textColor="@color/black"
+              android:textSize="22sp"
+              tools:text="Joe Bettridge" />
+            <TextView
+              android:id="@+id/sales_log_customer_name"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:layout_marginRight="20dp"
+              android:layout_marginBottom="10dp"
+              android:layout_weight="1"
+              android:fontFamily="@font/futuramedium"
+              android:text="TextView"
+              android:textColor="@color/black"
+              android:textSize="22sp"
+              tools:text="$ 2000.00" />
+          </LinearLayout>
+          <LinearLayout
+            android:id="@+id/sales_log_item_box"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+            <TextView
+              android:id="@+id/sales_log_item"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:layout_marginStart="20dp"
+              android:layout_marginEnd="15dp"
+              android:fontFamily="@font/futuramedium"
+              android:text="@string/hockey_stick"
+              android:textColor="@color/black"
+              android:textSize="20sp" />
+            <TextView
+              android:id="@+id/sales_log_quantity"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:layout_weight="1"
+              android:fontFamily="@font/futuramedium"
+              android:text="Quantity: 5"
+              android:textColor="@color/black"
+              android:textSize="20sp" />
+            <TextView
+              android:id="@+id/sales_log_price"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:layout_marginEnd="20dp"
+              android:fontFamily="@font/futurabook"
+              android:text="@string/price"
+              android:textColor="@color/black"
+              android:textSize="20sp" />
+          </LinearLayout>
+        </LinearLayout>
+
+
+      </LinearLayout>
+
+      <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_30dp"
+        android:backgroundTint="@color/yellow"
+        android:orientation="vertical"></LinearLayout>
+
+    </LinearLayout>
+
+  </ScrollView>
+  -->
+  <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_weight="0.7"
+    android:background="@drawable/rounded_20dp"
+    android:backgroundTint="@color/burgundy"
+    android:padding="20dp">
+    <TextView
+      android:id="@+id/sales_log_layout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/futurabook"
+      android:text=""
+      android:textColor="@color/white"
+      android:textSize="20sp" />
+  </ScrollView>
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_gravity="center"
+    android:layout_marginStart="70dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginEnd="70dp"
+    android:layout_weight="0.08"
+    android:orientation="horizontal">
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="60dp"
+      android:fontFamily="@font/futurabook"
+      android:text="@string/sale_id"
+      android:textColor="@color/black"
+      android:textSize="16sp" />
+
+    <EditText
+      android:id="@+id/sale_id_input"
+      android:layout_width="50dp"
+      android:layout_height="match_parent"
+      android:layout_marginEnd="10dp"
+      android:backgroundTint="@color/black"
+      android:fontFamily="@font/futurabook"
+      android:inputType="numberPassword"
+      android:textColor="@color/black"
+      android:textSize="16sp" />
+
+  </LinearLayout>
+
+  <TextView
+    android:id="@+id/sales_id_error"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:fontFamily="@font/futurabook"
+    android:textColor="@color/red" />
+
+  <Button
+    android:id="@+id/return_button"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_gravity="center"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginBottom="40dp"
+    android:layout_weight="0.1"
+    android:background="@drawable/rounded_40dp"
+    android:backgroundTint="@color/orange"
+    android:fontFamily="@font/futuramedium"
+    android:text="@string/return_sale"
+    android:textColor="@color/white"
+    android:textSize="20sp" />
+</LinearLayout>
